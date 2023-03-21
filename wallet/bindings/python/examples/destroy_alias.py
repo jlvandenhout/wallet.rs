@@ -16,5 +16,5 @@ response = account.sync()
 wallet.set_stronghold_password(WALLET_PASSWORD)
 
 # Send transaction.
-transaction = account.destroy_alias(alias_id)
-print(f'Sent transaction: {transaction["transactionId"]}')
+transaction = account.destroy_alias(ALIAS_ID)
+print(transaction)

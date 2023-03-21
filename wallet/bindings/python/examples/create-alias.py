@@ -16,4 +16,4 @@ wallet.set_stronghold_password(WALLET_PASSWORD)
 
 # Send transaction.
 transaction = account.create_alias_output(None, None)
-print(f'Sent transaction: {transaction["transactionId"]}')
+print(transaction)
