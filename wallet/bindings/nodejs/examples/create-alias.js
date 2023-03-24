@@ -1,5 +1,5 @@
 /**
- * This example mints native tokens
+ * This example creates an alias output
  */
 const getUnlockedManager = require('./account-manager');
 
