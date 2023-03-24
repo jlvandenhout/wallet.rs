@@ -13,7 +13,7 @@ async function run() {
 
         // First create an alias output, this needs to be done only once, because an alias can have many foundry outputs.
         let tx = await account.createAliasOutput()
-        console.log('Transaction ID: ', tx.transactionId);
+        console.log(tx);
     } catch (error) {
         console.log('Error: ', error);
     }
